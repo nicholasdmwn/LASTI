@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "allowUnreachableCode": false,
+        "noImplicitReturns": true,
+        "strictBindCallApply": true,
+        "typeRoots": [
+            "@types",
+            "./node_modules/@types"
+        ]
+    },
+}
